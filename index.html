@@ -8,12 +8,20 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
     <style>
+      /* Move to style.css if preferred */
       #desktop-nav {
         position: fixed;
         top: 0;
         width: 100%;
         z-index: 1000;
-        background-color: #fff; /* Adjust based on your style.css */
+        background-color: #f9f9f9;
+      }
+      .nav-buttons {
+        display: flex;
+        align-items: center;
+      }
+      #projects {
+        padding-top: 6rem; /* Adjusted to avoid overlap with fixed nav */
       }
     </style>
   </head>
@@ -22,7 +30,7 @@
     <nav id="desktop-nav">
       <div class="logo">Atumonye James</div>
       <div class="nav-buttons">
-        <a href="https://atumonye-james.vercel.app/" target="_blank" class="btn nav-btn">Main Page</a>
+        <a href="https://atumonye-james.vercel.app/" target="_blank" class="btn project-btn">Main Page</a>
       </div>
     </nav>
 

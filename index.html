@@ -7,11 +7,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
+    <style>
+      #desktop-nav {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+        background-color: #fff; /* Adjust based on your style.css */
+      }
+    </style>
   </head>
   <body>
     <!-- Navigation -->
     <nav id="desktop-nav">
       <div class="logo">Atumonye James</div>
+      <div class="nav-buttons">
+        <a href="https://atumonye-james.vercel.app/" target="_blank" class="btn nav-btn">Main Page</a>
+      </div>
     </nav>
 
     <!-- Projects Section -->
@@ -226,6 +238,10 @@
             <a href="https://github.com/Jamestown34/Supply-Chain-Analytics-Project/blob/main/Journey%20Through%20the%20Supply%20Chain.pdf" target="_blank" class="btn project-btn">Read</a>
           </div>
         </div>
+      </div>
+
+      <div class="btn-container">
+        <a href="https://atumonye-james.vercel.app/" target="_blank" class="btn project-btn">Back to Main Page</a>
       </div>
 
       <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
